@@ -1,15 +1,29 @@
-*.class
+.DS_Store
 
-# BlueJ files
-*.ctxt
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
 
-# Package Files #
-*.jar
-*.war
-*.ear
+composer.lock
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
